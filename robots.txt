@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+
+User-agent: Googlebot
+Allow: /
+
+Sitemap: https://saffron-voyage.com/sitemap.xml
