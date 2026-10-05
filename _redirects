@@ -1,3 +1,0 @@
-# SPA routing — Netlify/Cloudflare Pages
-/api/*  https://api.yourdomain.com/:splat  200
-/*      /index.html                         200
