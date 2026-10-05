@@ -20,3 +20,9 @@
 
 /api/*
   Cache-Control: private, no-store, no-cache
+
+# Content-Security-Policy
+# GitHub Pages ignores this file; the same policy ships as a <meta> tag
+# in index.html so Pages visitors are covered too.
+/*
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; form-action 'self' https://*.lemonsqueezy.com; img-src 'self' data: blob: https:; font-src 'self' data: https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'unsafe-inline' https://app.posthog.com https://plausible.io; connect-src 'self' https: https://app.posthog.com https://plausible.io https://*.lemonsqueezy.com; worker-src 'self' blob:; manifest-src 'self'; frame-ancestors 'none'; upgrade-insecure-requests

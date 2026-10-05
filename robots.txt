@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://saffron-voyage.com/sitemap.xml
+Sitemap: https://malikusmangoraya.github.io/saffron-voyage/sitemap.xml
